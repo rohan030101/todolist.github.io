@@ -116,7 +116,7 @@ function gettodos() {
 
     const completeBtn = document.createElement("button");
     completeBtn.classList.add("completeBtn");
-    completeBtn.innerHTML = '<i class="fas fa-plus"></i>';
+    completeBtn.innerHTML = '<i class="fa-solid fa-check"></i>';
     //adding the created html element to todocontainer
 
     todolist.appendChild(newtodo);
